@@ -1,0 +1,168 @@
+
+body{
+    font-family: 'Exo', sans-serif;
+    font-size:12;
+}
+.banner-cabecalho{
+    background-image: url("/IMG/bannercarol.png");
+    background-size: cover;
+    height: 85vh;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+.titulo{
+    font-size: 2rem;
+    text-shadow: 2px 2px black;
+    padding-top: 80px;
+}
+.subtitulo1{
+    font-size: 28px;
+    text-shadow: 2px 2px black;
+}
+.link-sobre{
+    text-decoration: none;
+    color:rgb(124, 49, 194);
+    padding: 6px 20px;
+    border-radius: 15px 15px 15px 15px;
+    background-color:white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+a:hover{
+    font-style: italic;
+    font-size: 23px;
+}
+.filha1{
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+    padding-bottom: 40px;
+}
+.caixa-sobre{
+    color:rgb(107, 107, 107);
+    display:flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+.sobremim{
+    color:rgb(124, 49, 194);
+}
+.nome{
+    color:rgb(124, 49, 194);
+    font-weight: bold;
+}
+.lado1{
+    width: 35%;
+    padding-top: 40px;
+}
+.margem-texto{
+    margin-bottom: 40px;
+}
+.lado2{
+    width: 35%;
+    padding-top: 40px;
+}
+h3{
+    color:rgb(124, 49, 194);
+    font-size: 25px;
+}
+.lista{
+    line-height: 1.8;
+}
+.
+.icone{
+    background-color: rgb(124, 49, 194);
+}
+.link-cv{
+    text-decoration: none;
+    color:rgb(124, 49, 194);
+    padding: 2px 8px;
+    border: solid 1px rgb(124, 49, 194);
+    border-radius: 15px 15px 15px 15px;
+}
+.caixa-links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    padding: 8%;
+ }
+ .links{
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(124, 49, 194);
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top:15px;
+    margin: 10px;
+ }
+.link-final{
+    text-decoration: none;
+    color:white;
+    padding-top: 35px;
+}
+.nome-link{
+    display:block;
+    margin:0px;
+    padding-bottom: 10px;
+}
+
+@media(max-width: 710px){
+    .titulo{
+    font-size: 22px;
+    text-shadow: 2px 2px black;
+    padding-top: 80px;
+    }
+    .subtitulo1{
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+    }
+    .link-sobre{
+    padding: 3px 14px;
+    background-color:white;
+    font-size: 14px;
+    }
+    .caixa-sobre{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .lado1{
+    width: 80%;
+    text-align: justify;
+    }
+    .lado2{
+    width: 80%;
+    }
+    .titulo-sobre{
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    }
+    .links{
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    }
+    .banner-cabecalho{
+    height: 65vh;
+    background-position: right;
+    display: flex;
+    justify-content: flex-end;
+    }
+    .filha{ 
+        background: none;
+    }
+}
